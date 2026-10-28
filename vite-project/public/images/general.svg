@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="600" y1="0" x2="600" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#203B56"/>
+      <stop offset="1" stop-color="#5A746A"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="411" y1="267" x2="640" y2="606" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#699C80"/>
+      <stop offset="1" stop-color="#254B4A"/>
+    </linearGradient>
+    <linearGradient id="water" x1="600" y1="410" x2="600" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#274C58"/>
+      <stop offset="1" stop-color="#132D3C"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientTransform="matrix(0 149 -149 0 872 192)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6D999" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#F6D999" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v650H0z"/>
+  <path fill="url(#sun)" d="M723 43h298v298H723z"/>
+  <circle cx="872" cy="192" r="54" fill="#F4D89C" fill-opacity=".88"/>
+  <path fill="#728C85" d="m0 385 216-155 174 132 169-195 204 210 178-139 259 165v247H0V385Z"/>
+  <path fill="url(#hill)" d="m0 466 176-135 179 119 192-170 187 140 170-117 296 158v189H0V466Z"/>
+  <path fill="url(#water)" d="M0 489c206 39 358 13 541-10 224-29 443 60 659 8v163H0V489Z"/>
+  <path stroke="#B5D6C5" stroke-opacity=".35" stroke-width="3" d="M319 547c140 18 242 14 376-2m-274 44c114 11 198 8 302-4m97-36c78 11 126 17 205 9"/>
+  <circle cx="123" cy="129" r="3" fill="#E8E5D1"/>
+  <circle cx="277" cy="97" r="2" fill="#E8E5D1"/>
+  <circle cx="1018" cy="104" r="3" fill="#E8E5D1"/>
+</svg>

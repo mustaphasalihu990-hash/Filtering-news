@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="145" y1="36" x2="1042" y2="621" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#253552"/>
+      <stop offset="1" stop-color="#1B263A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 373 -591 0 591 314)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A8C9EC" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#A8C9EC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="building" x1="379" y1="169" x2="828" y2="513" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C7D5E4"/>
+      <stop offset="1" stop-color="#738AA4"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v650H0z"/>
+  <path fill="url(#glow)" d="M0 0h1200v650H0z"/>
+  <path fill="#172337" fill-opacity=".45" d="M0 500h1200v150H0z"/>
+  <path fill="url(#building)" fill-opacity=".86" d="M600 144 346 268h508L600 144Z"/>
+  <path fill="#91A6BD" fill-opacity=".72" d="M372 288h456v24H372z"/>
+  <path fill="url(#building)" fill-opacity=".78" d="M392 322h51v157h-51zm92 0h51v157h-51zm92 0h51v157h-51zm92 0h51v157h-51zm92 0h51v157h-51z"/>
+  <path fill="#91A6BD" fill-opacity=".72" d="M348 487h504v27H348z"/>
+  <path stroke="#DCE6F0" stroke-opacity=".28" stroke-width="2" d="M319 536h562"/>
+  <circle cx="212" cy="180" r="3" fill="#DCE6F0"/>
+  <circle cx="982" cy="162" r="4" fill="#DCE6F0"/>
+  <circle cx="1012" cy="402" r="3" fill="#DCE6F0"/>
+  <circle cx="253" cy="411" r="4" fill="#DCE6F0"/>
+  <path stroke="#A7D8C4" stroke-opacity=".3" stroke-width="2" d="M179 566h842"/>
+</svg>
